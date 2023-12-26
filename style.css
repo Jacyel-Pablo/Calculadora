@@ -1,0 +1,104 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    box-sizing: border-box;
+}
+body{
+    background-size: 100%;
+}
+.titulo{
+    font-size: 3.8vh;
+    text-align: center;
+    margin: 2vh 0px;
+}
+
+/* lugar aonde vão ficar os negocios de mudar a imagem */
+.mudar__fundo{
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
+
+/* Campo para adicionar o link da foto */
+.link__image{
+    height: 3vh;
+    width: 75vw;
+    margin-left: 10vw;
+}
+/* Botão de troca imagem */
+
+.botao__troca{
+    height: 3.7vh;
+    font-size: 120%;
+    width: 5vw;
+}
+
+/* corpo da calculadora e a div aonde ela vai ficar "modelo"*/
+.modelo{
+    width: 100vw;
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corpo__calculadora{
+    border: 2px solid;
+    background-color: white;
+    width: 30vw;
+    height: 80vh;
+    opacity: 0.8;
+}
+
+/* display das contas */
+.linha__btn{
+    display: flex;
+    justify-content: space-between;
+}
+.linha__btn1{
+    display: flex;
+    justify-content: end;
+}
+.display{
+    background-color: gray;
+    height: 14.8vh;
+    font-size: 10vh;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+
+}
+
+/* Botões da calculadora */
+
+.calculadora__botao{
+    height: 13vh;
+    width: 20vw;
+    font-size: 5vh;
+}
+.botao__apagar{
+    width: 7.5vw;
+}
+
+@media screen and (max-width: 1080px) {
+    .corpo__calculadora {
+        width: 80vw;
+        height: 80vh;
+        margin: 10vh 0px;
+    }
+    .botao__apagar{
+        width: 20vw;
+    }
+    .link__image{
+        width: 70vw;
+    }
+    .botao__troca{
+        width: 15vw;
+        font-size: 300%;
+    }
+}
+@media screen and (max-width: 1079px) {
+    .botao__troca{
+        font-size: 94%;
+        width: 13%;
+    }
+}
