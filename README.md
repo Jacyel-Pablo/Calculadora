@@ -1,2 +1,2 @@
 # Calculadora
- Meu primeiro projeto usando o tkinter
+    Reformulação do projeto usando html, css, e javascript
